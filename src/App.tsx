@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {FC} from 'react';
+import Users from "./components/Users/Users";
+import Posts from "./components/Posts/Posts";
 
-const App = () => {
+
+
+const App: FC = () => {
     return (
         <div>
-          App
+            <Users/>
+            <hr/>
+            <Posts/>
         </div>
     );
 };
